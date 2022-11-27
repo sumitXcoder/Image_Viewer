@@ -87,7 +87,7 @@ for i in range(len(images)):
 #Creating a GUI(Graphical User Interface) Window using 'tkinter' module
 #in which we are going to display the image
 root = Tk()
-root.title("IMAGE VIEWER")
+root.title("I M A G E   V I E W E R")
 root.geometry("1400x900")
 #Image
 bg = ImageTk.PhotoImage(file=folderPath + '/' + images[0])
